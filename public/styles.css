@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box; 
+   }
+
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+head{
+    color: #3D4B5F
+}
+
+.head-title {
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    align-self: center;
+    font-size: 2rem;
+}
+
+.headerSection {
+    display: grid;
+    background-color:#F8FAFC;
+}
+
+.user-info {
+    grid-column-start: 4;
+    font-weight: bold;
+    color: #3D4B5F;
+}
+
+.login-app {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 30% auto;
+    align-items: center;
+    background-color: #CBD5E1;
+    font-size: 10rem;
+    color: #3D4B5F;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: auto;
+    align-items: center;
+    background-color: #8EC1D6;
+    font-size: large;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.guess-page {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto;
+    align-items: center;
+    background-color: #CBD5E1;
+    font-size: small;
+    color: #3D4B5F;
+    text-align: center;
+}
+  
+  li {
+    margin: 0 0.1px;
+  }
+  
+  a {
+    color: #3D4B5F;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+
+.login-page {
+    text-align: center;
+}
+
+.log-out {
+    padding: 1rem;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image: url('game-background.jpg');
+}
+
+.word-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.2rem;
+    flex-wrap: wrap;
+}
+
+.guessPage {
+    border-radius: 1rem;
+    background-color: #abd6f9;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.guess-list {
+    border-radius: 1rem;
+    margin-top: 0;
+    background-color: #8EC1D6;
+}
+
+.guessedWords {
+    border-radius: 1rem;
+    margin-top: 0;
+    background-color: azure;
+}
+
+.error-massage {
+    color: red;
+    grid-column-start:4;
+    grid-column-end: span 1;
+   
+    display: inline-block;
+}
+
+.number-guess {
+    font-weight:bold;
+}
+
+.start-new-game {
+    display: inline-block;
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    padding: 1rem;
+    border-radius: 1rem;
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+
+.button {
+    background-color: #3D4B5F; /* Grey */
+    border: 0.5rem;
+    color: white;
+    padding: .5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    animation: block 1s infinite linear;
+  }
+
+  .option{
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    animation: block 1s infinite linear;
+    grid-column-start: 4;
+  }
+
+  .word-list-title {
+      flex: 3;
+  }
+
+  .number-guess {
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    grid-row-start:2;
+    grid-row-end:3;
+  }
+
+  .guess-list {
+      display: grid;
+  }
+
+  .guess-history {
+      display: grid;
+      grid-column-start: 1;
+      grid-column-end: span 4;
+      grid-row-start: 2;
+  }
+
+  .history-item {
+      display: grid;
+      grid-column-start: 1;
+      grid-column-end: span 4;
+  }
+
+  .guess-list-title {
+    grid-column-start: 1;
+    grid-column-end: span 6;
+  }
+
+  .use-guess {
+    grid-column-start: 1;
+    grid-column-end: span 6;
+  }
+
+  .use-guess {
+    display: inline-block;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    text-align: left;
+  }
+
+  .num-match {
+    display: inline-block;
+    grid-column-start: 2;
+    grid-column-end: span 2; 
+  }
+
+  .your-guess {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
+
+  .input-form {
+      display: inline-block;
+      width: auto;
+      font-weight:bold;
+  }
+
+  .successImg {
+    width: 100%;
+  }
+
